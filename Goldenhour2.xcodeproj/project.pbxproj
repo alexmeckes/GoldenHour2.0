@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4A452591A085FF200842473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452581A085FF200842473 /* AppDelegate.swift */; };
+		A4A4525B1A085FF200842473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4525A1A085FF200842473 /* ViewController.swift */; };
+		A4A4525E1A085FF200842473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A4525C1A085FF200842473 /* Main.storyboard */; };
+		A4A452601A085FF200842473 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A4525F1A085FF200842473 /* Images.xcassets */; };
+		A4A4526C1A085FF300842473 /* Goldenhour2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4526B1A085FF300842473 /* Goldenhour2Tests.swift */; };
+		A4A452831A08607A00842473 /* EquatorialCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452761A08607A00842473 /* EquatorialCoordinates.swift */; };
+		A4A452841A08607A00842473 /* GeocentricCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452771A08607A00842473 /* GeocentricCoordinates.swift */; };
+		A4A452851A08607A00842473 /* MoonIllumination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452781A08607A00842473 /* MoonIllumination.swift */; };
+		A4A452861A08607A00842473 /* MoonPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452791A08607A00842473 /* MoonPosition.swift */; };
+		A4A452871A08607A00842473 /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527A1A08607A00842473 /* SunPosition.swift */; };
+		A4A452881A08607A00842473 /* suncalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527B1A08607A00842473 /* suncalc.swift */; };
+		A4A452891A08607A00842473 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527D1A08607A00842473 /* Constants.swift */; };
+		A4A4528A1A08607A00842473 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527E1A08607A00842473 /* DateUtils.swift */; };
+		A4A4528B1A08607A00842473 /* MoonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4527F1A08607A00842473 /* MoonUtils.swift */; };
+		A4A4528C1A08607A00842473 /* PositionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452801A08607A00842473 /* PositionUtils.swift */; };
+		A4A4528D1A08607A00842473 /* SunUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452811A08607A00842473 /* SunUtils.swift */; };
+		A4A4528E1A08607A00842473 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A452821A08607A00842473 /* TimeUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4A452661A085FF300842473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4A4524B1A085FF100842473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A452521A085FF200842473;
+			remoteInfo = Goldenhour2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4A452531A085FF200842473 /* Goldenhour2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goldenhour2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A452571A085FF200842473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A452581A085FF200842473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4A4525A1A085FF200842473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4A4525D1A085FF200842473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4A4525F1A085FF200842473 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4A452651A085FF300842473 /* Goldenhour2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Goldenhour2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A4526A1A085FF300842473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A4526B1A085FF300842473 /* Goldenhour2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goldenhour2Tests.swift; sourceTree = "<group>"; };
+		A4A452761A08607A00842473 /* EquatorialCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatorialCoordinates.swift; sourceTree = "<group>"; };
+		A4A452771A08607A00842473 /* GeocentricCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocentricCoordinates.swift; sourceTree = "<group>"; };
+		A4A452781A08607A00842473 /* MoonIllumination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonIllumination.swift; sourceTree = "<group>"; };
+		A4A452791A08607A00842473 /* MoonPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonPosition.swift; sourceTree = "<group>"; };
+		A4A4527A1A08607A00842473 /* SunPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunPosition.swift; sourceTree = "<group>"; };
+		A4A4527B1A08607A00842473 /* suncalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = suncalc.swift; sourceTree = "<group>"; };
+		A4A4527D1A08607A00842473 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A4A4527E1A08607A00842473 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		A4A4527F1A08607A00842473 /* MoonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonUtils.swift; sourceTree = "<group>"; };
+		A4A452801A08607A00842473 /* PositionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionUtils.swift; sourceTree = "<group>"; };
+		A4A452811A08607A00842473 /* SunUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunUtils.swift; sourceTree = "<group>"; };
+		A4A452821A08607A00842473 /* TimeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4A452501A085FF200842473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A452621A085FF300842473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4A4524A1A085FF100842473 = {
+			isa = PBXGroup;
+			children = (
+				A4A452551A085FF200842473 /* Goldenhour2 */,
+				A4A452681A085FF300842473 /* Goldenhour2Tests */,
+				A4A452541A085FF200842473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4A452541A085FF200842473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A452531A085FF200842473 /* Goldenhour2.app */,
+				A4A452651A085FF300842473 /* Goldenhour2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4A452551A085FF200842473 /* Goldenhour2 */ = {
+			isa = PBXGroup;
+			children = (
+				A4A452581A085FF200842473 /* AppDelegate.swift */,
+				A4A4525A1A085FF200842473 /* ViewController.swift */,
+				A4A452751A08607A00842473 /* models */,
+				A4A4527B1A08607A00842473 /* suncalc.swift */,
+				A4A4527C1A08607A00842473 /* utils */,
+				A4A4525C1A085FF200842473 /* Main.storyboard */,
+				A4A4525F1A085FF200842473 /* Images.xcassets */,
+				A4A452561A085FF200842473 /* Supporting Files */,
+			);
+			path = Goldenhour2;
+			sourceTree = "<group>";
+		};
+		A4A452561A085FF200842473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A452571A085FF200842473 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4A452681A085FF300842473 /* Goldenhour2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4526B1A085FF300842473 /* Goldenhour2Tests.swift */,
+				A4A452691A085FF300842473 /* Supporting Files */,
+			);
+			path = Goldenhour2Tests;
+			sourceTree = "<group>";
+		};
+		A4A452691A085FF300842473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4526A1A085FF300842473 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4A452751A08607A00842473 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A4A452761A08607A00842473 /* EquatorialCoordinates.swift */,
+				A4A452771A08607A00842473 /* GeocentricCoordinates.swift */,
+				A4A452781A08607A00842473 /* MoonIllumination.swift */,
+				A4A452791A08607A00842473 /* MoonPosition.swift */,
+				A4A4527A1A08607A00842473 /* SunPosition.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A4A4527C1A08607A00842473 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4A4527D1A08607A00842473 /* Constants.swift */,
+				A4A4527E1A08607A00842473 /* DateUtils.swift */,
+				A4A4527F1A08607A00842473 /* MoonUtils.swift */,
+				A4A452801A08607A00842473 /* PositionUtils.swift */,
+				A4A452811A08607A00842473 /* SunUtils.swift */,
+				A4A452821A08607A00842473 /* TimeUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4A452521A085FF200842473 /* Goldenhour2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A4526F1A085FF300842473 /* Build configuration list for PBXNativeTarget "Goldenhour2" */;
+			buildPhases = (
+				A4A4524F1A085FF200842473 /* Sources */,
+				A4A452501A085FF200842473 /* Frameworks */,
+				A4A452511A085FF200842473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goldenhour2;
+			productName = Goldenhour2;
+			productReference = A4A452531A085FF200842473 /* Goldenhour2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4A452641A085FF300842473 /* Goldenhour2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A452721A085FF300842473 /* Build configuration list for PBXNativeTarget "Goldenhour2Tests" */;
+			buildPhases = (
+				A4A452611A085FF300842473 /* Sources */,
+				A4A452621A085FF300842473 /* Frameworks */,
+				A4A452631A085FF300842473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4A452671A085FF300842473 /* PBXTargetDependency */,
+			);
+			name = Goldenhour2Tests;
+			productName = Goldenhour2Tests;
+			productReference = A4A452651A085FF300842473 /* Goldenhour2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4A4524B1A085FF100842473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alex Meckes";
+				TargetAttributes = {
+					A4A452521A085FF200842473 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A4A452641A085FF300842473 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A4A452521A085FF200842473;
+					};
+				};
+			};
+			buildConfigurationList = A4A4524E1A085FF100842473 /* Build configuration list for PBXProject "Goldenhour2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A4524A1A085FF100842473;
+			productRefGroup = A4A452541A085FF200842473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4A452521A085FF200842473 /* Goldenhour2 */,
+				A4A452641A085FF300842473 /* Goldenhour2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A452511A085FF200842473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A4525E1A085FF200842473 /* Main.storyboard in Resources */,
+				A4A452601A085FF200842473 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A452631A085FF300842473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4A4524F1A085FF200842473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A452841A08607A00842473 /* GeocentricCoordinates.swift in Sources */,
+				A4A452881A08607A00842473 /* suncalc.swift in Sources */,
+				A4A452861A08607A00842473 /* MoonPosition.swift in Sources */,
+				A4A4528B1A08607A00842473 /* MoonUtils.swift in Sources */,
+				A4A452831A08607A00842473 /* EquatorialCoordinates.swift in Sources */,
+				A4A4525B1A085FF200842473 /* ViewController.swift in Sources */,
+				A4A4528E1A08607A00842473 /* TimeUtils.swift in Sources */,
+				A4A452591A085FF200842473 /* AppDelegate.swift in Sources */,
+				A4A4528D1A08607A00842473 /* SunUtils.swift in Sources */,
+				A4A452871A08607A00842473 /* SunPosition.swift in Sources */,
+				A4A4528C1A08607A00842473 /* PositionUtils.swift in Sources */,
+				A4A4528A1A08607A00842473 /* DateUtils.swift in Sources */,
+				A4A452851A08607A00842473 /* MoonIllumination.swift in Sources */,
+				A4A452891A08607A00842473 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A452611A085FF300842473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A4526C1A085FF300842473 /* Goldenhour2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4A452671A085FF300842473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A452521A085FF200842473 /* Goldenhour2 */;
+			targetProxy = A4A452661A085FF300842473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4A4525C1A085FF200842473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4A4525D1A085FF200842473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4A4526D1A085FF300842473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4A4526E1A085FF300842473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4A452701A085FF300842473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Goldenhour2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4A452711A085FF300842473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Goldenhour2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4A452731A085FF300842473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Goldenhour2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goldenhour2.app/Goldenhour2";
+			};
+			name = Debug;
+		};
+		A4A452741A085FF300842473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Goldenhour2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goldenhour2.app/Goldenhour2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4A4524E1A085FF100842473 /* Build configuration list for PBXProject "Goldenhour2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A4526D1A085FF300842473 /* Debug */,
+				A4A4526E1A085FF300842473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A4526F1A085FF300842473 /* Build configuration list for PBXNativeTarget "Goldenhour2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A452701A085FF300842473 /* Debug */,
+				A4A452711A085FF300842473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4A452721A085FF300842473 /* Build configuration list for PBXNativeTarget "Goldenhour2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A452731A085FF300842473 /* Debug */,
+				A4A452741A085FF300842473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4A4524B1A085FF100842473 /* Project object */;
+}
